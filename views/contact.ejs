@@ -1,0 +1,49 @@
+
+  <% include partials/header %>
+
+    <div id="main"class="container-fluid">
+      <br><br>
+      <div id="jumbo" class="jumbotron">
+        <h1> Doja Dev Blog</h1>
+      </div>
+
+      <h1> Contact Us!</h1>
+      <div class="container-fluid">
+      	<div class="row">
+      		<div class="col-md-12">
+      			<form role="form">
+      				<div class="form-group">
+
+      					<label for="exampleInputEmail1">
+      						Email address to reply to (Optional)
+      					</label>
+      					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter a email address"/>
+      				</div>
+      				<div class="form-group">
+
+      					<label for="subject">
+      						Subject
+      					</label>
+      					<input type="text" class="form-control" name="subject" id="subject" placeholder="Enter a message subject"/>
+      				</div>
+              <div class="form-group">
+
+      					<label for="message">
+      						Message
+      					</label>
+                <textarea name="message" rows="8" cols="80" class="form-control" id="message" placeholder="Enter your message"></textarea>
+      				</div>
+
+
+      				<button type="submit" class="btn btn-default">
+      					Submit
+      				</button>
+      			</form>
+      		</div>
+      	</div>
+      </div>
+
+
+    </div>
+
+  <% include partials/footer %>

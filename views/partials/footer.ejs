@@ -1,0 +1,24 @@
+  </div>
+  <footer id=""class="footer text-center">
+    <p>Dev Doja &copy <span id="year"></span></p>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8"></script>
+  <script type="text/javascript">
+  var span = document.getElementById('year');
+  var x = new Date();
+  span.textContent = x.getFullYear()
+  /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "145px";
+  document.getElementById("main").style.marginLeft = "145px";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+      </script>
+  </body>
+</html>
